@@ -29,9 +29,18 @@ st.markdown("""
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
     }
 
-    /* Fix Top Header Clipping on Desktop */
+    /* Hide Streamlit Header, Toolbar, Menu, and Share Icons */
+    #MainMenu {visibility: hidden !important; display: none !important;}
+    header {visibility: hidden !important; display: none !important;}
+    footer {visibility: hidden !important; display: none !important;}
+    [data-testid="stHeader"] {visibility: hidden !important; display: none !important;}
+    [data-testid="stToolbar"] {visibility: hidden !important; display: none !important;}
+    [data-testid="stDecoration"] {visibility: hidden !important; display: none !important;}
+    .stDeployButton {display: none !important;}
+
+    /* Desktop Layout Spacing */
     .block-container {
-        padding-top: 2.8rem !important;
+        padding-top: 1.8rem !important;
         padding-bottom: 3rem !important;
         max-width: 1300px !important;
     }
