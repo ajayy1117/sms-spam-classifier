@@ -1,0 +1,208 @@
+{
+    "naive_bayes": {
+        "model": "Multinomial Naive Bayes",
+        "accuracy": 0.9668161434977578,
+        "precision": 0.9912280701754386,
+        "recall": 0.7583892617449665,
+        "f1_score": 0.8593155893536122
+    },
+    "logistic_regression": {
+        "model": "Logistic Regression",
+        "accuracy": 0.9668161434977578,
+        "precision": 1.0,
+        "recall": 0.7516778523489933,
+        "f1_score": 0.8582375478927203
+    },
+    "best_model": "Multinomial Naive Bayes",
+    "cm_nb": [
+        [
+            965,
+            1
+        ],
+        [
+            36,
+            113
+        ]
+    ],
+    "cm_lr": [
+        [
+            966,
+            0
+        ],
+        [
+            37,
+            112
+        ]
+    ],
+    "top_spam_words": [
+        {
+            "word": "txt",
+            "score": 4.612268249117635
+        },
+        {
+            "word": "claim",
+            "score": 3.639468736662971
+        },
+        {
+            "word": "mobile",
+            "score": 3.303662630424113
+        },
+        {
+            "word": "reply",
+            "score": 3.202550658778387
+        },
+        {
+            "word": "free",
+            "score": 3.1661452411061086
+        },
+        {
+            "word": "text",
+            "score": 2.919683092889493
+        },
+        {
+            "word": "stop",
+            "score": 2.8948606188177806
+        },
+        {
+            "word": "service",
+            "score": 2.7608045332530966
+        },
+        {
+            "word": "prize",
+            "score": 2.654694364567659
+        },
+        {
+            "word": "won",
+            "score": 2.5928013835475774
+        },
+        {
+            "word": "urgent",
+            "score": 2.3168174600134686
+        },
+        {
+            "word": "new",
+            "score": 2.2468563523391083
+        },
+        {
+            "word": "win",
+            "score": 2.1902980227087063
+        },
+        {
+            "word": "500",
+            "score": 2.18921552586753
+        },
+        {
+            "word": "18",
+            "score": 2.1192574448612738
+        },
+        {
+            "word": "nokia",
+            "score": 2.05211653304958
+        },
+        {
+            "word": "chat",
+            "score": 1.9729552047360817
+        },
+        {
+            "word": "cash",
+            "score": 1.8849863296798908
+        },
+        {
+            "word": "customer",
+            "score": 1.8028762075762483
+        },
+        {
+            "word": "landline",
+            "score": 1.7721963749657146
+        }
+    ],
+    "top_ham_words": [
+        {
+            "word": "ltgt",
+            "score": -1.9964105855865995
+        },
+        {
+            "word": "im",
+            "score": -1.9314189448455366
+        },
+        {
+            "word": "ok",
+            "score": -1.842668618144376
+        },
+        {
+            "word": "ill",
+            "score": -1.8126128893602966
+        },
+        {
+            "word": "come",
+            "score": -1.4669717115393317
+        },
+        {
+            "word": "home",
+            "score": -1.3560256750804285
+        },
+        {
+            "word": "got",
+            "score": -1.331086490736721
+        },
+        {
+            "word": "da",
+            "score": -1.2971360943155326
+        },
+        {
+            "word": "lor",
+            "score": -1.2762266960389796
+        },
+        {
+            "word": "later",
+            "score": -1.1790224363085642
+        },
+        {
+            "word": "going",
+            "score": -1.1659581824659315
+        },
+        {
+            "word": "hey",
+            "score": -1.16267534871828
+        },
+        {
+            "word": "sorry",
+            "score": -1.1037298529332404
+        },
+        {
+            "word": "good",
+            "score": -1.054855320871463
+        },
+        {
+            "word": "oh",
+            "score": -1.0521149710538693
+        },
+        {
+            "word": "way",
+            "score": -1.0471526434121898
+        },
+        {
+            "word": "like",
+            "score": -1.0251066890204774
+        },
+        {
+            "word": "thats",
+            "score": -1.001255050691463
+        },
+        {
+            "word": "yeah",
+            "score": -0.9741287096546691
+        },
+        {
+            "word": "did",
+            "score": -0.9732070608819057
+        }
+    ],
+    "stats": {
+        "total_samples": 5572,
+        "ham_count": 4825,
+        "spam_count": 747,
+        "ham_avg_chars": 71.02362694300518,
+        "spam_avg_chars": 138.8661311914324
+    }
+}
